@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Project Starter
 
-## Getting Started
+Welcome! This is my personal starter template for kicking off **Next.js** apps quickly—whether it’s a freelance client project or a fun weekend build.
 
-First, run the development server:
+I use this setup to spin up new apps fast, with best practices and powerful tools already wired in. If you're looking for a solid base for your Next.js project, feel free to use or fork this repo!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **⚛️ Next.js + React** – latest versions, ready to go
+- **🌍 Internationalization (i18n)** – via `next-i18next`
+- **🌗 Themes** – light/dark mode with `next-themes`
+- **💅 ShadCN UI** – accessible, beautiful components
+- **🧪 Vitest** – fast unit & integration testing
+- **🧷 Cypress** – end-to-end testing
+- **📚 Storybook** – component development & visual testing
+- **✅ Prettier + ESLint** – clean and consistent code
+- **🐶 Husky** – pre-commit hooks for formatting and linting
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Tool         | Purpose                            |
+| ------------ | ---------------------------------- |
+| Next.js      | React framework                    |
+| next-i18next | Internationalization               |
+| next-themes  | Theme toggling                     |
+| ShadCN       | UI component library               |
+| Vitest       | Unit & integration tests           |
+| Cypress      | End-to-end testing                 |
+| Storybook    | Component explorer                 |
+| ESLint       | Linting for consistent code        |
+| Prettier     | Code formatting                    |
+| Husky        | Git hooks (e.g. pre-commit checks) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Getting Started
 
-## Deploy on Vercel
+1. **Use this repo as a template**  
+   Click [`Use this template`](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/generate) on GitHub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies**
+   npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Start the dev server**
+   npm run dev
+
+## 🔄 Available Scripts
+
+| Command             | Description                            |
+| ------------------- | -------------------------------------- |
+| `npm run dev`       | Run the Next.js app in dev mode        |
+| `npm run build`     | Build the app for production           |
+| `npm run lint`      | Run ESLint checks                      |
+| `npm run lint:fix`  | Automatically fix linting issues       |
+| `npm run format`    | Format code with Prettier              |
+| `npm run test`      | Run unit/integration tests with Vitest |
+| `npm run storybook` | Start Storybook                        |
+| `npm run cypress`   | Open Cypress test runner               |
+| `npm run prepare`   | Set up Husky Git hooks after install   |
+
+---
+
+## 🧹 What's Already Done
+
+- Boilerplate pages and assets cleaned up
+- Code quality tools already configured
+- Tests and tooling integrated
+- Ready to code your app logic ✨
+
+---
+
+## 🧑‍💻 Author
+
+Maintained by [Andrej Berezni](https://github.com/AndrejBerezni) — built for speed, joy, and reuse 💙
+
+---
+
+## 📄 License
+
+MIT — use freely, customize endlessly.
