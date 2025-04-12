@@ -43,10 +43,16 @@ I use this setup to spin up new apps fast, with best practices and powerful tool
    Click [`Use this template`](https://github.com/AndrejBerezni/andrejb-nextjs-starter/generate) on GitHub
 
 2. **Install dependencies**
+
+```
    npm install
+```
 
 3. **Start the dev server**
+
+```
    npm run dev
+```
 
 ## 🔄 Available Scripts
 
