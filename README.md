@@ -40,7 +40,7 @@ I use this setup to spin up new apps fast, with best practices and powerful tool
 ## 🛠 Getting Started
 
 1. **Use this repo as a template**  
-   Click [`Use this template`](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/generate) on GitHub
+   Click [`Use this template`](https://github.com/AndrejBerezni/andrejb-nextjs-starter/generate) on GitHub
 
 2. **Install dependencies**
    npm install
