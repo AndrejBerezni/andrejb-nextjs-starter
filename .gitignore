@@ -40,3 +40,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfoc
 next-env.d.ts
+
+*storybook.log
