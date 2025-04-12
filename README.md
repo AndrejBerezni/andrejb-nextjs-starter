@@ -28,7 +28,7 @@ I use this setup to spin up new apps fast, with best practices and powerful tool
 | next-i18next | Internationalization               |
 | next-themes  | Theme toggling                     |
 | ShadCN       | UI component library               |
-| Vitest       | Unit & integration tests           |
+| Jest         | Unit & integration tests           |
 | Cypress      | End-to-end testing                 |
 | Storybook    | Component explorer                 |
 | ESLint       | Linting for consistent code        |
@@ -56,17 +56,17 @@ I use this setup to spin up new apps fast, with best practices and powerful tool
 
 ## 🔄 Available Scripts
 
-| Command             | Description                            |
-| ------------------- | -------------------------------------- |
-| `npm run dev`       | Run the Next.js app in dev mode        |
-| `npm run build`     | Build the app for production           |
-| `npm run lint`      | Run ESLint checks                      |
-| `npm run lint:fix`  | Automatically fix linting issues       |
-| `npm run format`    | Format code with Prettier              |
-| `npm run test`      | Run unit/integration tests with Vitest |
-| `npm run storybook` | Start Storybook                        |
-| `npm run cypress`   | Open Cypress test runner               |
-| `npm run prepare`   | Set up Husky Git hooks after install   |
+| Command                | Description                          |
+| ---------------------- | ------------------------------------ |
+| `npm run dev`          | Run the Next.js app in dev mode      |
+| `npm run build`        | Build the app for production         |
+| `npm run lint`         | Run ESLint checks                    |
+| `npm run lint:fix`     | Automatically fix linting issues     |
+| `npm run format`       | Format code with Prettier            |
+| `npm run test`         | Run unit/integration tests with Jest |
+| `npm run storybook`    | Start Storybook                      |
+| `npm run cypress:open` | Open Cypress test runner             |
+| `npm run prepare`      | Set up Husky Git hooks after install |
 
 ---
 

@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+/swc
 
 # next.js
 /.next/
@@ -37,5 +38,5 @@ yarn-error.log*
 .vercel
 
 # typescript
-*.tsbuildinfo
+*.tsbuildinfoc
 next-env.d.ts
