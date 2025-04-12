@@ -1,5 +1,5 @@
 import NextIntl from './next-intl-provider';
-import { ThemeProvider } from './theme-provider';
+import ThemeProvider from './theme-provider';
 
 interface ProvidersWrapperProps {
   children: React.ReactNode;

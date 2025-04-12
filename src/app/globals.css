@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -119,4 +119,15 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Handling light theme flashing if dark mode is system default */
+html.dark,
+html.light {
+  visibility: visible;
+}
+
+html {
+  visibility: hidden;
+  transition: visibility 0s ease-in-out;
 }
